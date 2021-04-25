@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+h1 {
+  margin: 1em;
+  text-align: center;
+}
+
+h2 {
+  margin: 1em;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  margin-bottom: 0.5em;
+  outline: none;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+input[type="submit"] {
+  padding: 5px 0;
+  background-color: rgb(87, 121, 223);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+.center {
+  text-align: center;
+}
+
+.center button {
+  background-color: #eeff00;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: #721c24;
+  background-color: #fa8892;
+  border-color: #f5c6cb;
+  text-align: center;
+}
+
+.noError {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.d-grid-list {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tarea-active {
+  border: 1px solid #000;
+  padding: 1em;
+}
+
+.border-no-active {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.incompleta {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.completa {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.incompleta:hover {
+  background-color: rgb(255, 101, 101);
+}
+
+.completa:hover {
+  background-color: #47e66c;
+}
+
+.btn {
+  padding: 5px 10px;
+  outline: none;
+  margin-left: 0.5em;
+  font-weight: bold;
+}
+
+.btn-eliminar {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-editar {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  border: none;
+  cursor: pointer;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.d-flex-btn {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
